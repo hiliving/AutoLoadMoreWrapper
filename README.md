@@ -1,7 +1,7 @@
 # AutoLoadMoreWrapper[![](https://jitpack.io/v/hiliving/AutoLoadMoreWrapper.svg)](https://jitpack.io/#hiliving/AutoLoadMoreWrapper)
 recycleview自动加载更多，超简单调用，装饰器模式无入侵
 
-> ####引入
+> 引入
         
         allprojects {
         		repositories {
@@ -14,7 +14,7 @@ recycleview自动加载更多，超简单调用，装饰器模式无入侵
         	        implementation 'com.github.hiliving:AutoLoadMoreWrapper:Tag'
         	}
 
-> ####用法
+> 用法
         
         LoadMoreWrapper.with(adapter)
                         .setLoadMoreEnabled(true)
